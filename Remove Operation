@@ -1,0 +1,25 @@
+import java.util.*;
+public class RemoveOperation  {
+    public static void main(String[] args) {
+        HashMap<String,Integer> hm = new HashMap<>();
+
+        // Insert -> O(1)
+
+        hm.put( "India" ,  100);
+        hm.put("China" ,  150);
+        hm.put( "US" , 150);
+
+        System.out.println(hm);
+
+
+        // Remove 
+
+       System.out.println(hm.remove(("China")));
+       System.out.println(hm);
+
+
+
+        
+    }
+    
+}
