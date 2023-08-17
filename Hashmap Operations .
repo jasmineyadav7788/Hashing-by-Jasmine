@@ -16,6 +16,14 @@ public class HashMapOperations {
 
         int population = hm.get("India");
         System.out.println(population);
+
+        System.out.println(hm.get("Indonesia"));
+
+        //Contains -> O(n)
+
+        System.out.println(hm.containsKey("India"));//true
+        System.out.println(hm.containsKey("Indonesia"));//false
+
         
     }
     
